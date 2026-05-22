@@ -1,4 +1,4 @@
-name: hello-snap-q4n8x
+name: hello-snap-w6r2t
 base: core24
 version: '0.1'
 summary: A simple hello world snap
@@ -9,11 +9,11 @@ grade: stable
 confinement: strict
 
 apps:
-  hello-snap-q4n8x:
+  hello-snap-w6r2t:
     command: bin/hello
 
 parts:
-  hello-snap-q4n8x:
+  hello-snap-w6r2t:
     plugin: dump
     source: .
     organize:
